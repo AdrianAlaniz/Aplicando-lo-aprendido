@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <style>
+        table{
+            table-layout: fixed;
+            border-collapse: collapse;
+            width: 100%;
+            margin: 5px auto;
+        }
+        th, td{
+            
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Horarios</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th colspan="2">Miércoles</th>
+                <th colspan="2">Jueves</th>
+                <th colspan="2">Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>                                                                <!--1°fila-->
+                <th>8:00 - 9:00</th>
+                <td></td><!--lunes-->
+                <td></td><!--martes-->
+                <td colspan="2"></td><!--miércoles-->
+                <!--2° columna dentro de miércoles-->
+                <td colspan="2" rowspan="2">Ingés Técnico 1 <p>8:00 a 10:00</p><p>prof:A.Lotti / L.Marino / L.Maciel</p></td><!--jueves-->
+                <td colspan="2"></td><!--2°columna dentro de jueves-->
+                <!--viernes--><!--si pongo otro td se rompe la tabla-->
+            </tr>
+            <tr>                                                               <!--2°fila-->
+                <th>9:00 - 10:00</th>
+                <td></td><!--lunes-->
+                <td rowspan="3">Matemáticas 1 (comisión 1) <p>9:00 a 12:00</p><p>Aula 3</p><p>F.leonte</p></td><!--martes-->
+                <td rowspan="4">Expresión de <p>Problemas y </p>Algoritmos<p>(Comisión 2)</p><p>9:00 a 13:00</p><p>Sala Informática 3</p></td><!--miércoles-->
+                <td rowspan="3">Matemáticas 1 <p>(Comisión 1,2 y 3)</p><p>9:00 a 12:00</p><p>Auditorio</p><p>J.Rodriguez Piatti</p></td><!--2°columna dentro de miercoles-->
+                <td colspan="2"></td><!--jueves-->
+                <!--2°columna dentro de jueves-->
+                <!--viernes-->
+            </tr>
+            <tr>                                                               <!--3°fila-->
+                <th>10:00 - 11:00</th>
+                <td rowspan="2">Inglés Técnico 1<p>10:00 a 12:00</p><p>Auditorio</p><p>prof:A.Lotti / L.Marino / L.Maciel</p></td><!--lunes--> 
+                <td colspan="2"></td><!--martes--> <!-- si ingrese un valor se guarada dentro de jueves-->
+                <!--miércoles-->
+                <td colspan="2"></td><!--jueves--> <!--si ingreso un valor se guarda dentro de viernes-->
+                <!--viernes-->
+            </tr>
+            <tr>                                                                 <!--4°fila-->
+                <th>11:00 - 12:00</th>
+                <td colspan="2"></td><!--lunes--> <!--1° columna dentro de jueves -->
+                <td colspan="2"></td><!--martes--> <!--2° columna dentro de jueves -->
+                <!--miércoles-->
+                <!--jueves-->
+                <!--viernes-->
+            </tr>
+            <tr>                                                                  <!--5°fila-->
+                <th>12:00 - 13:00</th>
+                <td></td><!--lunes-->
+                <td></td><!--martes-->
+                <td></td><!--miércoles-->
+                <td rowspan="2">Diseño Web <p>(Comisión 1)</p><p>12:00 a 14:00</p><p>Sala Informática B</p><p>Prof:P.Cavalie</p></td><!--jueves-->
+                <td rowspan="2">Diseño Web <p>(Comisión 4)</p><p>12:00 a 14:00</p><p>Aula a Definir</p><p>Prof:W.Aguero</p></td><!--2 °columna dentro de jueves-->
+                <td colspan="2"></td><!--viernes-->
+            </tr>
+            <tr>                                                                    <!--6°fila-->
+                <th>13:00 - 14:00</th>
+                <td></td><!--lunes-->
+                <td></td><!--martes-->
+                <td colspan="2"></td><!--miércoles-->
+                <!--jueves-->
+                <td colspan="2"></td><!--viernes-->
+            </tr>
+            <tr>                                                                     <!--7°fila-->
+                <th>14:00 - 15:00</th>
+                <td rowspan="2">Matemáticas 1<p>(Teoría)</p><p>14:00 a 16:00</p><p>Auditorio</p><p>Prof: J.Quiroga</p></td><!--lunes-->
+                <td></td><!--martes-->
+                <td colspan="2"></td><!--miércoles-->
+                <td colspan="2"></td><!--2°columna dentro de miercoles--> <!--si ingreso un valor se guarda dentro de jueves-->
+                <!--jueves-->
+                <!--2°columna dentro de jueves-->
+                <td colspan="2"></td><!--viernes-->
+            </tr>
+            <tr>                                                                     <!--8°fila-->
+                <th>15:00 - 16:00</th>
+                <td></td><!--lunes-->
+                <td colspan="2"></td><!--martes--> <!--si ingreso un valor se guarda dentro de miercoles-->
+                <td colspan="2"></td><!--miércoles--> <!--si ingreso un valor se guarda dentro de jueves-->
+                <!--jueves-->
+                <td colspan="2"></td><!--viernes-->
+            </tr>
+            <tr>                                                                     <!--9°fila-->
+                <th>16:00 - 17:00</th>
+                <td></td><!--lunes-->
+                <td></td><!--martes-->
+                <td colspan="2"></td><!--miércoles-->
+                <td colspan="2"></td><!--2°columna dentro de miercoles--> <!--si ingreso un valor se guarda dentro de jueves-->
+                <!--jueves-->
+                <!--2°columna dentro de jueves-->
+                <td rowspan="5" colspan="2">Expresión de <p>Problemas y </p>Algoritmos<p>(Comisión 1)</p><p>16:00 a 20:00</p><p>Sala Informática B</p><p>Prof: R.Gomez</p></td><!--viernes-->
+            </tr>
+            <tr>                                                                      <!--10°fila-->
+                <th>17:00 - 18:00</th>
+                <td rowspan="3">Diseño Web<p>(Teoría)</p><p>17:00 a 19:30</p><p>Auditorio</p><p>W.Molina</p></td><!--lunes-->
+                <td></td><!--martes-->
+                <td colspan="2"></td><!--miércoles-->
+                <td rowspan="2" colspan="2">Diseño Web (Comisión 2)<p>17:00 a 19:00</p><p>Sala informática B</p><p>R.Silva</p></td><!--2°columna dentro de miercoles--> <!--Si ingreso un valor se guarda dentro de jueves-->
+                <!--jueves-->
+                <!--2°columna dentro de jueves-->
+                <!--viernes-->
+            </tr>
+            <tr>                                                                       <!--11°fila-->
+                <th>18:00 - 19:00</th>
+                <td></td><!--lunes--> <!--si ingreso un valor se guarda dentro de martes-->
+                <td colspan="2"></td><!--martes--> <!--si ingreso un valor se guarda dentro de miercoles-->
+                <!--miércoles-->
+                <!--jueves-->
+                <!--viernes-->
+            </tr>
+            <tr>                                                                         <!--12°fila-->
+                <th rowspan="2">19:00 - 20:00</th>
+                <td rowspan="2"></td><!--lunes--> <!--si ingreso un valor se guarda dentro de martes-->
+                <td rowspan="2" colspan="2"></td><!--martes--> <!--si ingreso un valor se guarda dentro de miercoles-->
+                <td rowspan="3" colspan="2">Diseño Web (Comisión 3)<p>19:00 a 21:00</p><p>Sala informática B</p><p>R.Silva</p></td><!--miércoles--> <!--si ingreso un valor se guarda dentro de jueves-->
+                <!--jueves-->
+                <!--2° columna dentro de jueves-->
+                <!--viernes-->
+            </tr>
+            <tr>
+                <td rowspan="3">Expresión de Problemas y Algoritmos<p>(Teoría)</p><p>19:30 a 22:00</p><p>Auditorio</p><p>W.Molina</p></td><!--Línea que corta a la mitad la casilla de 19:00 - 20:00-->
+                <!--faltan 6 td-->
+            </tr>
+            <tr>                                                                        <!--13°fila-->
+                <th>20:00 - 21:00</th>
+                <td></td><!--lunes--> <!--si ingreso un valor sale en el día martes-->
+                <td colspan="2"></td><!--martes--> <!--si ingreso un valor sale en el día miercoles-->
+                <!--miércoles--> <!--si ingreso un valor sale en el día viernes-->
+                <!--jueves-->
+                <!--viernes-->
+            </tr>
+            <tr>                                                                          <!--14°fila-->
+                <th>21:00 - 22:00</th>
+                <td></td><!--lunes--><!--si ingreso un valor sale en el día martes-->
+                <td colspan="2"></td><!--martes--> <!--si ingreso un valor sale en el día miercoles-->
+                <td colspan="2"></td><!--miércoles--> <!--si ingreso un valor sale en el día jueves-->
+                <td colspan="2"></td><!--2°columna dentro de miercoles--> <!--si ingreso un valor sale en el día viernes-->
+                <!--jueves-->
+                <!--viernes-->
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    
+</body>
+</html>
