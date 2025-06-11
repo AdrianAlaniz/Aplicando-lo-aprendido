@@ -1,0 +1,33 @@
+.tarjeta{
+    background-color: burlywood;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+    
+}
+hr{
+    border: 1px solid black;
+    margin: 10px 0;
+    width: auto;
+}
+h2{
+    color: black;
+    margin: 0;
+}
+.descripcion{
+    font-size: 1.3em;
+    color: whitesmoke;
+    margin: 1px 0;
+}
+.contacto{
+    font-size: 1.3em;
+    background-color: black;
+    color: whitesmoke;
+    padding: 1px;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 10px;
+}
+
