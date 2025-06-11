@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+div.imagen{
+    text-align: center;
+}
+div.tabla-recetas {
+    margin: 20px 0;
+}
+th, td{
+    padding: 50px;
+    text-align: center;
+}
+p{
+    font-size: 1.3em;
+}
+table{
+    font-size: 1.3em;
+}
+.Menu li{
+    background-color: black;
+    display: inline;
+    margin-right: 20px;
+    padding: 20px;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+div.Encabezado{
+    background-color: burlywood;
+    padding: 20px;
+}
+div.receta{
+    font-size: 1.3em;
+}
