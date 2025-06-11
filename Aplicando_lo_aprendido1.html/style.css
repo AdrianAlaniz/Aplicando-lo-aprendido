@@ -1,0 +1,149 @@
+body{
+    background-color: gray;
+}
+div.header h1{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+}
+div.header p{
+    font-size: 1.5em; 
+    color: white;
+    
+}
+div.header nav p{
+    font-size: 1.5em;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+}
+div.header nav p:hover{
+    color: lightblue;
+}
+div.content-1 h2{
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+}
+div.content-1 hr{
+    max-width: 500px;
+}
+div.content-1 p{
+    font-size: 1.5em;
+    color: white;
+}
+div.content-2 h2{
+    margin-top: 100px;
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+}
+div.content-2 hr{
+    max-width: 500px;
+}
+div.content-2 p{
+    font-size: 1.5em;
+    color: white;
+}
+div.content-3 h2{
+    margin-top: 100px;
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+}
+div.content-3 hr{
+    max-width: 500px;
+}
+div.content-3 p{
+    font-size: 1.5em;
+    color: white;
+}
+div.content-4 h2{
+    margin-top: 100px;
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+}
+div.content-4 hr{
+    max-width: 500px;
+}
+table{
+    border: 1px solid black;
+    width: auto;
+    border-collapse: collapse;
+}
+div.content-4 table{
+    margin: 0 auto;
+}
+div.content-4 table td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    font-size: 1.3em;
+}
+div.content-4 table th{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3em;
+    border: 1px solid black;
+}
+div.content-4 p{
+    font-size: 1.5em;
+    color: white;
+}
+div.content-5 h2{
+    margin-top: 100px;
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+}
+div.content-5 hr{
+    max-width: 500px;
+}
+div.content-5 p{
+    font-size: 1.5em;
+    color: white;
+}
+div.content-5 table th{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3em;
+    border: 1px solid black;
+}
+div.content-5 table td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    font-size: 1.3em;
+}
+div.content-6 h2{
+    margin-top: 100px;
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+}
+div.content-6 hr{
+    max-width: 500px;
+}
+div.content-6 p{
+    font-size: 1.5em;
+    color: white;
+}
+div.content-6 ul{
+    list-style-type: none;
+    padding: 0;
+}
+div.content-6 ul li{
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
